@@ -1,0 +1,9 @@
+{% extends 'db/baseblog.html' %}
+
+{% block show_card %}
+    {% for volunteer in volunteers %}
+        <p>
+            {% include  'includes/cards.html' %}
+        </p>
+    {% endfor %}
+{% endblock %}
