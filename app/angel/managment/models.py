@@ -20,7 +20,7 @@ class Event(models.Model):
 class Crew(models.Model):
     crewName = models.TextField(max_length=159)    
     timeDate = models.DateTimeField(blank=True)
-    denorture = models.TextField(max_length=159, null=True,)
+    denorture = models.TextField(max_length=159, null=True,) #main
     arrival = models.BooleanField(null=True)
     event = models.ForeignKey(Event, on_delete=models.CASCADE)
 
