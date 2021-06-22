@@ -9,6 +9,8 @@ admin.site.register(Education)
 #admin.site.register(Volunteers)
 admin.site.register(Equipment_hisrory)
 admin.site.register(Equipment)
+admin.site.register(Missing_people)
+admin.site.register(Found_people)
 
 # Define the Volunteers class
 class VolunteersAdmin(admin.ModelAdmin):

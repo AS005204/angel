@@ -1,0 +1,16 @@
+{% include  'head.html' %}
+
+{% block all_note %}
+  {% for event in events %}
+    {% include  'cardEvent.html' %}
+  {% endfor %}
+{% endblock %}
+
+    <footer class="blog-footer">
+  
+      <a href="{% url 'catalog' %}" method="POST" >Back main </a>
+    </p>
+  </footer>            
+  
+  </body>
+  </html>
